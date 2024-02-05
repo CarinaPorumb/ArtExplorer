@@ -8,9 +8,8 @@ export function Header() {
 
     const handleScroll = () => {
         const position = window.scrollY;
-        setIsScrolled(position > 0); // Change the navbar style if scrolled down
+        setIsScrolled(position > 0);
     };
-
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -29,4 +28,5 @@ export function Header() {
                   className={`${styles.linkStyle} ${isScrolled ? styles.scrolledLink : ''}`}>Artworks</Link>
         </div>
     );
+
 }

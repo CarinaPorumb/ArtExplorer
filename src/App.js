@@ -23,10 +23,6 @@ function App() {
             element: <Artworks/>,
         },
 
-//   {
-//     path: '/users/:userId',
-//     element: <User />,
-//   },
     ]);
 
     return (
