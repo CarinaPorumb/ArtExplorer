@@ -1,0 +1,43 @@
+.fixedHeader {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    transition: color 0.3s ease
+}
+
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    padding-top: 60px;
+    flex: 1;}
+
+.scrolled {
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: rgba(128, 128, 128, 0.9);
+}
+
+.scrolledLink {
+    color: white;
+}
+
+.footerStyle {
+    padding: 10px;
+    background-color: #8C8C8C;
+}
